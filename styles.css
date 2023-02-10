@@ -1,0 +1,114 @@
+div.main-body {
+	display: grid;
+	grid-template-columns: minmax(300px , auto)1fr;
+	grid-template-areas: "navbar mainContent";
+	grid-gap: 20px;
+}
+.navbar {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	border-color: blue;
+}
+header {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.code1 {
+	font-family: Consolas,"courier new";
+	color: rgb(169, 85, 102);
+	background-color: #eae5e5;
+	margin:0;
+  	padding:0;
+	font-size: 100%;
+	font-weight: bolder;
+}
+
+.code2 {
+	font-family: Consolas,"courier new";
+	color: rgb(169, 85, 102);
+	background-color: #eae5e5;
+	margin:0;
+  	padding:0;
+	font-size: 100%;
+	font-weight: bolder;
+}
+
+.code3 {
+	font-family: Consolas,"courier new";
+	color: rgb(169, 85, 102);
+	background-color: #eae5e5;
+	margin:0;
+  	padding:0;
+	font-size: 100%;
+	font-weight: bolder;
+}
+
+.code4 {
+	font-family: Consolas,"courier new";
+	color: rgb(169, 85, 102);
+	background-color: #eae5e5;
+	margin:0;
+  	padding:0;
+	font-size: 100%;
+	font-weight: bolder;
+}
+
+.code5 {
+	font-family: Consolas,"courier new";
+	color: rgb(169, 85, 102);
+	background-color: #eae5e5;
+	margin:0;
+  	padding:0;
+	font-size: 100%;
+	font-weight: bolder;
+
+}
+
+.code6 {
+	font-family: Consolas,"courier new";
+	color: rgb(169, 85, 102);
+	background-color: #eae5e5;
+	margin:0;
+  	padding:0;
+	font-size: 100%;
+	font-weight: bolder;
+}
+
+.First_list {
+	font-weight: bold;
+}
+p {
+	font-family: 'Courier New', Courier, monospace;
+}
+li {
+	font-family: 'Courier New', Courier, monospace;
+    
+}
+
+nav#navbar {
+	grid-area: navbar;
+	position: fixed;
+}
+
+nav#navbar a {
+	display: block;
+	border: 1px solid black;
+	padding: 5px;
+	margin: 10px 0;
+	text-decoration: none;
+	color: black;
+}
+
+main#main-doc {
+	grid-area: mainContent;
+}
+
+header {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+code {
+	background-color: #CCC;
+	display: block;
+	padding: 20px;
+}
