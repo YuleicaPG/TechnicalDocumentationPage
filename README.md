@@ -1,2 +1,2 @@
 # TechnicalDocumentationPage
-Technical Documentation Page about Javascript with a navbar. Built using HTML + CSS.
+Technical Documentation Page about Javascript including a navbar. Built using HTML + CSS.
